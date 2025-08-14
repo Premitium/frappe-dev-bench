@@ -1,0 +1,5 @@
+frappe
+email_delivery_service
+vies
+swiss_accounting_integration
+erpnext

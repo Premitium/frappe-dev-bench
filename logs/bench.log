@@ -1,0 +1,128 @@
+2025-08-07 12:17:06,354 DEBUG cd frappe-bench && python3 -m venv env
+2025-08-07 12:17:07,389 DEBUG cd frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-08-07 12:17:08,795 DEBUG cd frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-08-07 12:17:11,213 LOG Getting frappe
+2025-08-07 12:17:11,213 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-08-07 12:17:19,154 LOG Installing frappe
+2025-08-07 12:17:19,155 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-08-07 12:18:55,107 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-08-07 12:19:26,453 DEBUG cd frappe-bench && bench build
+2025-08-07 12:19:26,879 INFO /opt/homebrew/bin/bench build
+2025-08-07 12:19:36,630 LOG setting up backups
+2025-08-07 12:19:43,847 LOG backups were set up
+2025-08-07 12:19:43,847 INFO Bench frappe-bench initialized
+2025-08-07 12:20:41,658 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench exisebro mysite.local
+2025-08-07 12:20:49,871 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench new-site mysite.local
+2025-08-07 12:21:10,351 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench new-site mysite.local
+2025-08-07 12:23:01,240 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:23:02,150 INFO /opt/homebrew/bin/bench watch
+2025-08-07 12:23:02,150 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:23:02,150 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:23:02,151 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:23:49,277 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench new-app vies
+2025-08-07 12:23:49,278 LOG creating new app vies
+2025-08-07 12:24:32,121 LOG Installing vies
+2025-08-07 12:24:32,122 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/vies 
+2025-08-07 12:24:33,274 DEBUG bench build --app vies
+2025-08-07 12:24:33,342 INFO /opt/homebrew/bin/bench build --app vies
+2025-08-07 12:24:47,002 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --site mysite.local install-app vies
+2025-08-07 12:28:29,248 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench drop-site mysite.local
+2025-08-07 12:28:46,143 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench drop-site mysite.local --force
+2025-08-07 12:30:12,387 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench new-site mysite.local
+2025-08-07 12:31:28,246 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --site mysite.local install-app vies
+2025-08-07 12:36:55,461 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:36:55,660 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:36:55,660 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:36:55,660 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:36:55,660 INFO /opt/homebrew/bin/bench watch
+2025-08-07 12:38:55,631 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:38:55,817 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:38:55,817 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:38:55,818 INFO /opt/homebrew/bin/bench watch
+2025-08-07 12:38:55,821 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:43:39,626 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench get-app erpnext --branch version-15
+2025-08-07 12:43:40,661 LOG Getting erpnext
+2025-08-07 12:43:40,662 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-08-07 12:43:46,798 LOG Installing erpnext
+2025-08-07 12:43:46,799 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/erpnext 
+2025-08-07 12:43:59,786 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && yarn install --check-files
+2025-08-07 12:43:59,945 DEBUG bench build --app erpnext
+2025-08-07 12:44:00,022 INFO /opt/homebrew/bin/bench build --app erpnext
+2025-08-07 12:44:11,797 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --site mysite.local install-app erpnext
+2025-08-07 12:46:32,199 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --site mysite.local install-app erpnext
+2025-08-07 12:49:19,258 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:49:19,456 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:49:19,456 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:49:19,456 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:49:19,457 INFO /opt/homebrew/bin/bench watch
+2025-08-07 12:50:12,722 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --site mysite.local list-apps
+2025-08-07 12:50:43,074 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:50:43,271 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:50:43,271 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:50:43,272 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:50:43,273 INFO /opt/homebrew/bin/bench watch
+2025-08-07 12:52:06,617 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench start
+2025-08-07 12:52:06,801 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-07 12:52:06,802 INFO /opt/homebrew/bin/bench schedule
+2025-08-07 12:52:06,806 INFO /opt/homebrew/bin/bench worker
+2025-08-07 12:52:06,807 INFO /opt/homebrew/bin/bench watch
+2025-08-08 00:00:01,226 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-11 00:00:01,366 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-11 06:00:00,648 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-11 12:00:01,007 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-11 18:00:00,414 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-13 12:13:28,185 INFO /opt/homebrew/bin/bench start
+2025-08-13 12:13:28,402 INFO /opt/homebrew/bin/bench watch
+2025-08-13 12:13:28,402 INFO /opt/homebrew/bin/bench schedule
+2025-08-13 12:13:28,404 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-13 12:13:28,415 INFO /opt/homebrew/bin/bench worker
+2025-08-13 12:15:31,628 INFO /opt/homebrew/bin/bench start
+2025-08-13 12:15:31,802 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-13 12:15:31,805 INFO /opt/homebrew/bin/bench watch
+2025-08-13 12:15:31,805 INFO /opt/homebrew/bin/bench schedule
+2025-08-13 12:15:31,805 INFO /opt/homebrew/bin/bench worker
+2025-08-13 12:16:32,089 INFO /opt/homebrew/bin/bench start
+2025-08-13 12:16:32,260 INFO /opt/homebrew/bin/bench watch
+2025-08-13 12:16:32,264 INFO /opt/homebrew/bin/bench schedule
+2025-08-13 12:16:32,267 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-13 12:16:32,276 INFO /opt/homebrew/bin/bench worker
+2025-08-13 12:30:43,188 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-13 12:30:54,721 INFO /opt/homebrew/bin/bench start
+2025-08-13 12:30:54,902 INFO /opt/homebrew/bin/bench worker
+2025-08-13 12:30:54,903 INFO /opt/homebrew/bin/bench watch
+2025-08-13 12:30:54,911 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-13 12:30:54,923 INFO /opt/homebrew/bin/bench schedule
+2025-08-14 09:28:11,706 INFO /opt/homebrew/bin/bench which
+2025-08-14 09:30:02,619 INFO /opt/homebrew/bin/bench --site mysite.local --force restore /Users/simo/Dev/frappe-bench/sites/mysite.local/private/backups/20250813_234511-erpnext-qle-ejy_frappe_cloud-database.sql.gz
+2025-08-14 09:31:21,328 INFO /opt/homebrew/bin/bench run
+2025-08-14 09:31:26,544 INFO /opt/homebrew/bin/bench start
+2025-08-14 09:32:41,191 INFO /opt/homebrew/bin/bench start
+2025-08-14 09:32:41,376 INFO /opt/homebrew/bin/bench schedule
+2025-08-14 09:32:41,377 INFO /opt/homebrew/bin/bench worker
+2025-08-14 09:32:41,378 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-14 09:32:41,385 INFO /opt/homebrew/bin/bench watch
+2025-08-14 09:35:53,206 INFO /opt/homebrew/bin/bench get-app swiss_accounting_integration https://github.com/phamos-eu/Swiss-Accounting-Integration.git
+2025-08-14 09:35:53,219 LOG Getting Swiss-Accounting-Integration
+2025-08-14 09:35:53,219 DEBUG cd ./apps && git clone https://github.com/phamos-eu/Swiss-Accounting-Integration.git  --depth 1 --origin upstream
+2025-08-14 09:35:54,004 LOG Installing swiss_accounting_integration
+2025-08-14 09:35:54,004 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-08-14 09:35:55,149 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && yarn install --check-files
+2025-08-14 09:36:01,451 DEBUG bench build --app swiss_accounting_integration
+2025-08-14 09:36:01,520 INFO /opt/homebrew/bin/bench build --app swiss_accounting_integration
+2025-08-14 09:36:09,592 INFO /opt/homebrew/bin/bench start
+2025-08-14 09:36:09,771 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-14 09:36:09,777 INFO /opt/homebrew/bin/bench worker
+2025-08-14 09:36:09,781 INFO /opt/homebrew/bin/bench watch
+2025-08-14 09:36:09,791 INFO /opt/homebrew/bin/bench schedule
+2025-08-14 09:37:31,753 INFO /opt/homebrew/bin/bench get-app email_delivery_service https://github.com/frappe/email_delivery_service.git
+2025-08-14 09:37:31,766 LOG Getting email_delivery_service
+2025-08-14 09:37:31,766 DEBUG cd ./apps && git clone https://github.com/frappe/email_delivery_service.git  --depth 1 --origin upstream
+2025-08-14 09:37:32,352 LOG Installing email_delivery_service
+2025-08-14 09:37:32,352 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-08-14 09:37:32,960 DEBUG bench build --app email_delivery_service
+2025-08-14 09:37:33,027 INFO /opt/homebrew/bin/bench build --app email_delivery_service
+2025-08-14 09:37:36,657 INFO /opt/homebrew/bin/bench start
+2025-08-14 09:37:36,849 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-14 09:37:36,852 INFO /opt/homebrew/bin/bench schedule
+2025-08-14 09:37:36,855 INFO /opt/homebrew/bin/bench watch
+2025-08-14 09:37:36,856 INFO /opt/homebrew/bin/bench worker
