@@ -196,3 +196,6 @@
 2025-08-15 09:13:47,974 INFO /opt/homebrew/bin/bench watch
 2025-08-15 09:13:47,977 INFO /opt/homebrew/bin/bench schedule
 2025-08-15 09:13:47,981 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 09:55:18,601 INFO /opt/homebrew/bin/bench build --app vies
+2025-08-15 10:17:54,999 INFO /opt/homebrew/bin/bench build
+2025-08-15 10:43:40,237 INFO /opt/homebrew/bin/bench build --app vies
