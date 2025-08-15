@@ -126,3 +126,73 @@
 2025-08-14 09:37:36,852 INFO /opt/homebrew/bin/bench schedule
 2025-08-14 09:37:36,855 INFO /opt/homebrew/bin/bench watch
 2025-08-14 09:37:36,856 INFO /opt/homebrew/bin/bench worker
+2025-08-14 10:42:10,102 INFO /opt/homebrew/bin/bench start
+2025-08-14 10:42:10,288 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-14 10:42:10,288 INFO /opt/homebrew/bin/bench watch
+2025-08-14 10:42:10,299 INFO /opt/homebrew/bin/bench schedule
+2025-08-14 10:42:10,302 INFO /opt/homebrew/bin/bench worker
+2025-08-15 07:14:22,950 INFO /opt/homebrew/bin/bench start
+2025-08-15 07:14:23,183 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 07:14:23,185 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 07:14:23,186 INFO /opt/homebrew/bin/bench watch
+2025-08-15 07:14:23,186 INFO /opt/homebrew/bin/bench worker
+2025-08-15 07:16:28,240 INFO /opt/homebrew/bin/bench start
+2025-08-15 07:16:28,441 INFO /opt/homebrew/bin/bench watch
+2025-08-15 07:16:28,451 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 07:16:28,452 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 07:16:28,460 INFO /opt/homebrew/bin/bench worker
+2025-08-15 07:25:40,219 INFO /opt/homebrew/bin/bench --site yoursite.local list-apps
+2025-08-15 07:26:05,392 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-08-15 07:26:42,117 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-15 07:27:24,898 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-15 07:30:48,758 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-08-15 07:31:08,913 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-08-15 07:31:28,893 INFO /opt/homebrew/bin/bench start
+2025-08-15 07:31:29,080 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 07:31:29,088 INFO /opt/homebrew/bin/bench watch
+2025-08-15 07:31:29,089 INFO /opt/homebrew/bin/bench worker
+2025-08-15 07:31:29,092 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 07:32:14,285 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-08-15 07:32:34,522 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-15 07:41:18,719 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-08-15 07:41:27,354 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-08-15 07:41:43,249 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-15 07:41:53,902 INFO /opt/homebrew/bin/bench start
+2025-08-15 07:41:54,090 INFO /opt/homebrew/bin/bench worker
+2025-08-15 07:41:54,097 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 07:41:54,097 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 07:41:54,098 INFO /opt/homebrew/bin/bench watch
+2025-08-15 07:43:01,670 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-08-15 08:49:26,206 INFO /opt/homebrew/bin/bench start
+2025-08-15 08:49:26,398 INFO /opt/homebrew/bin/bench watch
+2025-08-15 08:49:26,402 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 08:49:26,413 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 08:49:26,415 INFO /opt/homebrew/bin/bench worker
+2025-08-15 08:50:15,126 INFO /opt/homebrew/bin/bench start
+2025-08-15 08:50:15,311 INFO /opt/homebrew/bin/bench watch
+2025-08-15 08:50:15,324 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 08:50:15,329 INFO /opt/homebrew/bin/bench worker
+2025-08-15 08:50:15,329 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 08:51:42,058 INFO /opt/homebrew/bin/bench start
+2025-08-15 08:51:42,244 INFO /opt/homebrew/bin/bench watch
+2025-08-15 08:51:42,249 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 08:51:42,253 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 08:51:42,254 INFO /opt/homebrew/bin/bench worker
+2025-08-15 09:04:05,573 INFO /opt/homebrew/bin/bench --site yoursite.local console
+2025-08-15 09:04:14,004 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-08-15 09:05:59,131 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app vies
+2025-08-15 09:06:25,805 INFO /opt/homebrew/bin/bench --site mysite.local install-app vies
+2025-08-15 09:06:54,113 INFO /opt/homebrew/bin/bench start
+2025-08-15 09:06:54,298 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-15 09:06:54,301 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 09:06:54,313 INFO /opt/homebrew/bin/bench watch
+2025-08-15 09:06:54,313 INFO /opt/homebrew/bin/bench worker
+2025-08-15 09:07:44,263 INFO /opt/homebrew/bin/bench --site yoursite.local console
+2025-08-15 09:08:01,119 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-08-15 09:13:02,382 INFO /opt/homebrew/bin/bench pip install -e apps/vies
+2025-08-15 09:13:33,292 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-08-15 09:13:47,783 INFO /opt/homebrew/bin/bench start
+2025-08-15 09:13:47,972 INFO /opt/homebrew/bin/bench worker
+2025-08-15 09:13:47,974 INFO /opt/homebrew/bin/bench watch
+2025-08-15 09:13:47,977 INFO /opt/homebrew/bin/bench schedule
+2025-08-15 09:13:47,981 INFO /opt/homebrew/bin/bench serve --port 8000

@@ -1,0 +1,10 @@
+2025-08-15 09:05:56,419 INFO ipython === bench console session ===
+2025-08-15 09:05:56,420 INFO ipython import zeep
+2025-08-15 09:05:56,420 INFO ipython === session end ===
+2025-08-15 09:13:44,329 INFO ipython === bench console session ===
+2025-08-15 09:13:44,331 INFO ipython import zeep
+2025-08-15 09:13:44,331 INFO ipython === session end ===
+2025-08-15 09:16:37,706 INFO ipython === bench console session ===
+2025-08-15 09:16:37,707 INFO ipython import zeep
+2025-08-15 09:16:37,707 INFO ipython import frappe
+2025-08-15 09:16:37,707 INFO ipython === session end ===
