@@ -4,3 +4,7 @@
 [submodule "eb_vies"]
 	path = eb_vies
 	url = https://github.com/Premitium/eb_vies.git
+[submodule "apps/eb_vies"]
+	path = apps/eb_vies
+	url = https://github.com/Premitium/eb_vies.git
+	branch = main
