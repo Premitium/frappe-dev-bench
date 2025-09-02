@@ -1,3 +1,6 @@
 [submodule "apps/vies"]
 	path = apps/vies
 	url = https://github.com/Premitium/Vies.git
+[submodule "eb_vies"]
+	path = eb_vies
+	url = https://github.com/Premitium/eb_vies.git

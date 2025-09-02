@@ -199,3 +199,54 @@
 2025-08-15 09:55:18,601 INFO /opt/homebrew/bin/bench build --app vies
 2025-08-15 10:17:54,999 INFO /opt/homebrew/bin/bench build
 2025-08-15 10:43:40,237 INFO /opt/homebrew/bin/bench build --app vies
+2025-08-15 12:00:01,155 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-15 18:00:01,094 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-18 18:00:00,576 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-21 18:00:01,737 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-22 00:00:01,410 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-22 12:00:00,904 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-24 12:00:00,536 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-25 12:00:00,555 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-26 06:00:01,581 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-31 12:00:01,523 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-31 16:51:26,893 INFO /opt/homebrew/bin/bench start
+2025-08-31 16:51:27,152 INFO /opt/homebrew/bin/bench watch
+2025-08-31 16:51:27,152 INFO /opt/homebrew/bin/bench schedule
+2025-08-31 16:51:27,152 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-08-31 16:51:27,159 INFO /opt/homebrew/bin/bench worker
+2025-08-31 17:02:10,997 INFO /opt/homebrew/bin/bench build
+2025-08-31 17:22:06,903 INFO /opt/homebrew/bin/bench build --production
+2025-08-31 17:24:13,441 INFO /opt/homebrew/bin/bench build --app vies
+2025-08-31 17:58:10,004 INFO /opt/homebrew/bin/bench build --app vies
+2025-08-31 18:00:00,762 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-08-31 18:16:50,380 INFO /opt/homebrew/bin/bench new-app brewery_backend
+2025-08-31 18:16:50,384 LOG creating new app brewery_backend
+2025-08-31 18:17:16,588 WARNING /opt/homebrew/bin/bench new-app brewery_backend executed with exit code 1
+2025-08-31 18:17:30,083 INFO /opt/homebrew/bin/bench new-app brewery_backend
+2025-08-31 18:17:30,084 LOG creating new app brewery_backend
+2025-08-31 18:18:35,630 LOG Installing brewery_backend
+2025-08-31 18:18:35,633 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/brewery_backend 
+2025-08-31 18:18:36,754 DEBUG bench build --app brewery_backend
+2025-08-31 18:18:36,844 INFO /opt/homebrew/bin/bench build --app brewery_backend
+2025-08-31 18:32:53,767 INFO /opt/homebrew/bin/bench new-app eb_vies
+2025-08-31 18:32:53,770 LOG creating new app eb_vies
+2025-08-31 18:32:54,102 WARNING /opt/homebrew/bin/bench new-app eb_vies executed with exit code 1
+2025-08-31 18:33:01,459 INFO /opt/homebrew/bin/bench new-app eb_vies
+2025-08-31 18:33:01,461 LOG creating new app eb_vies
+2025-08-31 18:33:01,657 WARNING /opt/homebrew/bin/bench new-app eb_vies executed with exit code 1
+2025-08-31 18:35:54,594 INFO /opt/homebrew/bin/bench new-app eb_vies
+2025-08-31 18:35:54,596 LOG creating new app eb_vies
+2025-08-31 18:36:41,876 LOG Installing eb_vies
+2025-08-31 18:36:41,878 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_vies 
+2025-08-31 18:36:42,799 DEBUG bench build --app eb_vies
+2025-08-31 18:36:42,883 INFO /opt/homebrew/bin/bench build --app eb_vies
+2025-08-31 20:57:27,701 INFO /opt/homebrew/bin/bench get-translations bg
+2025-08-31 20:58:46,379 INFO /opt/homebrew/bin/bench
+2025-08-31 21:00:23,788 INFO /opt/homebrew/bin/bench get-untranslated bg
+2025-08-31 21:01:05,964 INFO /opt/homebrew/bin/bench get-untranslated bg bg_untranslated.csv
+2025-08-31 21:01:46,888 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated bg bg_untranslated.csv
+2025-08-31 21:05:25,859 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated bg bg_untranslated.csv
+2025-08-31 21:05:58,672 INFO /opt/homebrew/bin/bench --site mysite.local update-translations --lang bg --app frappe
+2025-08-31 21:06:48,022 INFO /opt/homebrew/bin/bench --site mysite.local update-translations --lang bg --app frappe
+2025-08-31 21:06:49,679 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated bg /tmp/bg_untranslated.csv
+2025-08-31 21:07:27,615 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated --app erpnext bg /tmp/erpnext_bg.csv
