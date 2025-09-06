@@ -1,5 +1,9 @@
 frappe
-email_delivery_service
-swiss_accounting_integration
 erpnext
+email_delivery_service
+vies
+eb_invoice_templates
+plato_excise
+truth_source
 eb_vies
+swiss_accounting_integration

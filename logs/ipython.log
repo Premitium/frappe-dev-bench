@@ -8,3 +8,88 @@
 2025-08-15 09:16:37,707 INFO ipython import zeep
 2025-08-15 09:16:37,707 INFO ipython import frappe
 2025-08-15 09:16:37,707 INFO ipython === session end ===
+2025-09-03 16:35:35,164 INFO ipython === bench console session ===
+2025-09-03 16:35:35,166 INFO ipython bq
+2025-09-03 16:35:35,166 INFO ipython === session end ===
+2025-09-03 16:39:56,850 INFO ipython === bench console session ===
+2025-09-03 16:39:56,851 INFO ipython === session end ===
+2025-09-03 16:50:33,470 INFO ipython === bench console session ===
+2025-09-03 16:50:33,471 INFO ipython === session end ===
+2025-09-03 17:15:17,757 INFO ipython === bench console session ===
+2025-09-03 17:15:17,759 INFO ipython === session end ===
+2025-09-03 17:18:12,496 INFO ipython === bench console session ===
+2025-09-03 17:18:12,497 INFO ipython import frappe
+hits={}
+for k, v in frappe.get_hooks().items():
+    s=str(v)
+    if "thruth_source" in s:
+        hits[k]=v
+hits
+2025-09-03 17:18:12,497 INFO ipython === session end ===
+2025-09-03 17:19:59,321 INFO ipython === bench console session ===
+2025-09-03 17:19:59,323 INFO ipython === session end ===
+2025-09-03 17:23:25,757 INFO ipython === bench console session ===
+2025-09-03 17:23:25,758 INFO ipython import frappe, pprint
+
+# What apps is bench trying to consider as 'bench apps'?
+print("ALL APPS (raw):")
+pprint.pp(frappe.get_all_apps(only_names=False))  # may include uninstalled apps from apps.txt
+
+print("\nHOOK SOURCES mentioning the typo:")
+hits = {}
+for k, v in frappe.get_hooks().items():
+    s = str(v)
+    if "thruth_source" in s:
+        hits[k] = v
+pprint.pp(hits)
+
+print("\nBench app paths (where the names come from):")
+pprint.pp(getattr(frappe, "get_bench_app_paths", lambda: {})())
+2025-09-03 17:23:25,758 INFO ipython import frappe, pprint
+
+print("ALL APPS (raw):")
+print(frappe.get_all_apps())  # simple list of app names
+
+print("\nHOOK SOURCES mentioning the typo:")
+hits = {}
+for k, v in frappe.get_hooks().items():
+    s = str(v)
+    if "thruth_source" in s:
+        hits[k] = v
+pprint.pp(hits)
+
+print("\nBench app paths (where the names come from):")
+try:
+    from frappe.utils.boilerplate import get_bench_app_paths
+    pprint.pp(get_bench_app_paths())
+except Exception as e:
+    print("No get_bench_app_paths():", e)
+2025-09-03 17:23:25,758 INFO ipython === session end ===
+2025-09-03 17:27:43,456 INFO ipython === bench console session ===
+2025-09-03 17:27:43,457 INFO ipython === session end ===
+2025-09-03 17:38:09,576 INFO ipython === bench console session ===
+2025-09-03 17:38:09,577 INFO ipython import sys, pathlib, pkgutil
+
+print("Modules with 'thruth' visible:", [m.name for m in pkgutil.iter_modules() if "thruth" in m.name])
+
+sus = []
+for p in map(pathlib.Path, sys.path):
+    if p.exists() and p.is_dir():
+        for f in p.glob("**/*thruth_source*"):
+            sus.append(str(f))
+print("Filesystem suspects (first 50):")
+print("\n".join(sus[:50]))
+print("Total suspects:", len(sus))
+2025-09-03 17:38:09,577 INFO ipython === session end ===
+2025-09-05 09:51:00,781 INFO ipython === bench console session ===
+2025-09-05 09:51:00,782 INFO ipython import frappe, pprint, pathlib
+2025-09-05 09:51:00,782 INFO ipython print("installed apps:")
+pprint.pp(frappe.get_installed_apps())
+2025-09-05 09:51:00,782 INFO ipython print("\nall apps (bench list used for hooks iteration):")
+pprint.pp(frappe.get_all_apps(True, True))
+2025-09-05 09:51:00,783 INFO ipython apps_txt = pathlib.Path(frappe.get_site_path("../apps.txt")).read_text().splitlines()
+print("\ncontents of sites/apps.txt:")
+pprint.pp(apps_txt)
+2025-09-05 09:51:00,783 INFO ipython === session end ===
+2025-09-05 10:06:21,309 INFO ipython === bench console session ===
+2025-09-05 10:06:21,310 INFO ipython === session end ===

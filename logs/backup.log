@@ -2046,3 +2046,92 @@ Traceback with variables (most recent call last):
       out = {'message': 'mariadb-dump not found in PATH! This is required to take a backup.', 'title': 'Message', 'indicator': 'red', 'raise_exception': 1, '__frappe_exc_id': '47c871d5b0af32d34b3b76a9143199aee0b7af79230fee80b70cd8be'}
       raise_exception = <class 'frappe.exceptions.ExecutableNotFound'>
 frappe.exceptions.ExecutableNotFound: mariadb-dump not found in PATH! This is required to take a backup.
+Traceback (most recent call last):
+  File "/Users/simo/Dev/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 75, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'swiss_accounting_integration'
+Backup failed for Site mysite.local. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 840, in backup
+    frappe.init(site=site)
+      context = {'sites': ['mysite.local'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x107e41b40>
+      exit_code = 0
+      rollback_callback = None
+      site = 'mysite.local'
+  File "apps/frappe/frappe/__init__.py", line 258, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'mysite.local'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1670, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'eb_invoice_templates', 'eb_vies', 'email_delivery_service', 'erpnext', 'plato_excise', 'swiss_accounting_integration', 'truth_source', 'vies']
+      app = 'swiss_accounting_integration'
+      module = 'plato_excise'
+  File "apps/frappe/frappe/__init__.py", line 1518, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'swiss_accounting_integration'
+  File "apps/frappe/frappe/__init__.py", line 1483, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'swiss_accounting_integration'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1513, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'swiss_accounting_integration'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x104e0b010>
+      dirname = <function dirname at 0x104e0ac20>
+      join = <function join at 0x104e0a950>
+  File "apps/frappe/frappe/__init__.py", line 1454, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'swiss_accounting_integration'
+  File "/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'swiss_accounting_integration'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'swiss_accounting_integration'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'swiss_accounting_integration'
+      import_ = <function _gcd_import at 0x104cfb400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 331, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'swiss_accounting_integration'
+      import_ = <function _gcd_import at 0x104cfb400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'swiss_accounting_integration'

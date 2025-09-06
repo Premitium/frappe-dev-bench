@@ -1,0 +1,5 @@
+{
+ "db_name": "excise_db",
+ "db_password": "excice_pass",
+ "db_type": "mariadb"
+}

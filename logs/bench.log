@@ -250,3 +250,304 @@
 2025-08-31 21:06:48,022 INFO /opt/homebrew/bin/bench --site mysite.local update-translations --lang bg --app frappe
 2025-08-31 21:06:49,679 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated bg /tmp/bg_untranslated.csv
 2025-08-31 21:07:27,615 INFO /opt/homebrew/bin/bench --site mysite.local get-untranslated --app erpnext bg /tmp/erpnext_bg.csv
+2025-09-02 10:24:51,348 INFO /opt/homebrew/bin/bench new-app eb_invoice_templates
+2025-09-02 10:24:51,351 LOG creating new app eb_invoice_templates
+2025-09-02 10:25:57,154 LOG Installing eb_invoice_templates
+2025-09-02 10:25:57,155 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-02 10:25:58,110 DEBUG bench build --app eb_invoice_templates
+2025-09-02 10:25:58,196 INFO /opt/homebrew/bin/bench build --app eb_invoice_templates
+2025-09-02 10:26:34,961 INFO /opt/homebrew/bin/bench --site mysite install-app eb_invoice_templates
+2025-09-02 10:26:58,824 INFO /opt/homebrew/bin/bench --site mysite.local install-app eb_invoice_templates
+2025-09-02 10:29:39,062 INFO /opt/homebrew/bin/bench --site mysite.local export-fixtures
+2025-09-02 10:30:51,206 INFO /opt/homebrew/bin/bench --site mysite.local export-fixtures
+2025-09-02 10:44:37,710 INFO /opt/homebrew/bin/bench start
+2025-09-02 10:44:37,905 INFO /opt/homebrew/bin/bench watch
+2025-09-02 10:44:37,906 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-02 10:44:37,909 INFO /opt/homebrew/bin/bench schedule
+2025-09-02 10:44:37,927 INFO /opt/homebrew/bin/bench worker
+2025-09-02 10:45:16,820 INFO /opt/homebrew/bin/bench start
+2025-09-02 10:45:16,999 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-02 10:45:17,000 INFO /opt/homebrew/bin/bench watch
+2025-09-02 10:45:17,009 INFO /opt/homebrew/bin/bench schedule
+2025-09-02 10:45:17,015 INFO /opt/homebrew/bin/bench worker
+2025-09-02 10:49:54,451 INFO /opt/homebrew/bin/bench --site mysite.local set-admin-password new_password
+2025-09-02 10:50:02,359 INFO /opt/homebrew/bin/bench start
+2025-09-02 10:50:02,550 INFO /opt/homebrew/bin/bench watch
+2025-09-02 10:50:02,552 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-02 10:50:02,556 INFO /opt/homebrew/bin/bench schedule
+2025-09-02 10:50:02,566 INFO /opt/homebrew/bin/bench worker
+2025-09-02 10:56:43,603 INFO /opt/homebrew/bin/bench --site mysite.local export-fixtures
+2025-09-02 10:57:13,239 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:05:37,548 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:06:02,999 INFO /opt/homebrew/bin/bench --site mysite.local clear-website-cache
+2025-09-02 11:06:15,504 INFO /opt/homebrew/bin/bench restart
+2025-09-02 11:06:21,299 INFO /opt/homebrew/bin/bench start
+2025-09-02 11:06:21,492 INFO /opt/homebrew/bin/bench watch
+2025-09-02 11:06:21,493 INFO /opt/homebrew/bin/bench worker
+2025-09-02 11:06:21,494 INFO /opt/homebrew/bin/bench schedule
+2025-09-02 11:06:21,496 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-02 11:12:52,944 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:20:00,935 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:20:47,170 INFO /opt/homebrew/bin/bench --site mysite.local export-fixtures
+2025-09-02 11:22:31,724 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:27:34,012 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:31:20,970 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:33:09,842 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 11:34:46,698 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 13:16:04,103 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 13:19:23,943 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 13:23:55,293 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:37:27,276 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:41:35,314 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:43:49,238 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:48:20,340 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:49:07,723 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:51:12,706 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:53:13,547 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 14:59:14,960 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 15:06:26,796 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 15:07:43,556 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 15:12:51,677 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 15:43:46,394 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 16:03:28,941 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-02 16:12:35,247 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 07:28:55,752 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 07:50:14,212 INFO /opt/homebrew/bin/bench new-app plato_excise
+2025-09-03 07:50:14,214 LOG creating new app plato_excise
+2025-09-03 07:51:00,796 LOG Installing plato_excise
+2025-09-03 07:51:00,797 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/plato_excise 
+2025-09-03 07:51:01,664 DEBUG bench build --app plato_excise
+2025-09-03 07:51:01,745 INFO /opt/homebrew/bin/bench build --app plato_excise
+2025-09-03 07:51:51,304 INFO /opt/homebrew/bin/bench --site mysite.local install-app plato_excise
+2025-09-03 07:53:32,567 INFO /opt/homebrew/bin/bench start
+2025-09-03 07:53:32,752 INFO /opt/homebrew/bin/bench watch
+2025-09-03 07:53:32,753 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-03 07:53:32,761 INFO /opt/homebrew/bin/bench schedule
+2025-09-03 07:53:32,766 INFO /opt/homebrew/bin/bench worker
+2025-09-03 09:19:36,740 INFO /opt/homebrew/bin/bench new-app thruth_source
+2025-09-03 09:19:36,743 LOG creating new app thruth_source
+2025-09-03 09:20:34,964 LOG Installing thruth_source
+2025-09-03 09:20:34,965 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/thruth_source 
+2025-09-03 09:20:35,812 DEBUG bench build --app thruth_source
+2025-09-03 09:20:35,899 INFO /opt/homebrew/bin/bench build --app thruth_source
+2025-09-03 09:51:18,555 INFO /opt/homebrew/bin/bench --site mysite.local install-app truth_source
+2025-09-03 09:51:54,202 INFO /opt/homebrew/bin/bench --site mysite.local install-app thruth_source
+2025-09-03 09:53:30,285 INFO /opt/homebrew/bin/bench --site mysite.local install-app thruth_source
+2025-09-03 09:53:34,382 INFO /opt/homebrew/bin/bench --site mysite.local install-app truth_source
+2025-09-03 09:55:21,743 INFO /opt/homebrew/bin/bench --site mysite.local install-app truth_source
+2025-09-03 09:58:06,922 INFO /opt/homebrew/bin/bench --site mysite.local install-app truth_source
+2025-09-03 10:08:39,439 INFO /opt/homebrew/bin/bench new-app truth_source
+2025-09-03 10:08:39,442 LOG creating new app truth_source
+2025-09-03 10:08:39,795 WARNING /opt/homebrew/bin/bench new-app truth_source executed with exit code 1
+2025-09-03 10:11:48,298 INFO /opt/homebrew/bin/bench new-app truth_source
+2025-09-03 10:11:48,301 LOG creating new app truth_source
+2025-09-03 10:12:30,258 LOG Installing truth_source
+2025-09-03 10:12:30,259 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/truth_source 
+2025-09-03 10:12:31,188 DEBUG bench build --app truth_source
+2025-09-03 10:12:31,259 INFO /opt/homebrew/bin/bench build --app truth_source
+2025-09-03 10:13:01,475 INFO /opt/homebrew/bin/bench --site mysite.local install-app truth_source
+2025-09-03 10:18:07,542 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 10:18:20,497 INFO /opt/homebrew/bin/bench start
+2025-09-03 10:18:20,700 INFO /opt/homebrew/bin/bench watch
+2025-09-03 10:18:20,702 INFO /opt/homebrew/bin/bench worker
+2025-09-03 10:18:20,702 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-03 10:18:20,703 INFO /opt/homebrew/bin/bench schedule
+2025-09-03 10:18:30,511 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 16:15:17,145 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 16:15:46,795 INFO /opt/homebrew/bin/bench
+2025-09-03 16:16:17,358 INFO /opt/homebrew/bin/bench list-apps
+2025-09-03 16:17:17,811 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-03 16:18:12,394 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app truth_source
+2025-09-03 16:21:20,262 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app truth_source
+2025-09-03 16:23:21,129 INFO /opt/homebrew/bin/bench remove-app thruth_source
+2025-09-03 16:23:21,132 WARNING /opt/homebrew/bin/bench remove-app thruth_source executed with exit code 1
+2025-09-03 16:23:26,951 INFO /opt/homebrew/bin/bench list-apps
+2025-09-03 16:23:31,225 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-03 16:24:50,197 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 16:32:23,559 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-03 16:34:00,170 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 16:35:45,363 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-03 16:36:22,690 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 16:36:31,690 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 16:37:07,500 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-03 16:39:08,480 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 16:49:18,350 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-03 16:49:29,652 INFO /opt/homebrew/bin/bench mysite.local clear-cache
+2025-09-03 16:49:43,443 INFO /opt/homebrew/bin/bench clear-cache mysite.local
+2025-09-03 16:49:49,047 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-03 16:49:57,056 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 16:50:04,449 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:00:34,736 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 17:06:28,073 INFO /opt/homebrew/bin/bench restart
+2025-09-03 17:14:41,051 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:15:18,528 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:18:13,953 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:20:00,400 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:24:25,259 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-03 17:24:37,760 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 17:24:43,341 INFO /opt/homebrew/bin/bench restart
+2025-09-03 17:24:50,433 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:28:02,820 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-03 17:37:08,393 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:38:45,661 INFO /opt/homebrew/bin/bench setup requirements --dev
+2025-09-03 17:38:52,110 INFO /opt/homebrew/bin/bench build
+2025-09-03 17:39:31,718 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 17:43:12,091 INFO /opt/homebrew/bin/bench build
+2025-09-03 17:43:40,074 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:47:50,209 INFO /opt/homebrew/bin/bench build
+2025-09-03 17:48:07,261 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-03 17:51:02,487 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app --yes swiss_accounting_integration
+2025-09-03 17:51:27,982 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app --yes swiss_accounting_integration
+2025-09-03 18:00:01,242 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-03 18:00:17,896 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app --yes swiss_accounting_integration
+2025-09-03 18:00:44,130 INFO /opt/homebrew/bin/bench --site mysite.local uninstall-app --yes swiss_accounting_integration
+2025-09-03 18:04:25,117 INFO /opt/homebrew/bin/bench --site mysite.local mariadb -e DELETE FROM `tabInstalled Application` WHERE app_name='swiss_accounting_integration';
+2025-09-03 18:05:46,211 INFO /opt/homebrew/bin/bench --site mysite.local mariadb -e SET SQL_SAFE_UPDATES=0; DELETE FROM `tabInstalled Application` WHERE app_name='swiss_accounting_integration'; SET SQL_SAFE_UPDATES=1;
+2025-09-03 18:06:09,425 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 18:06:16,077 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-03 18:06:27,197 INFO /opt/homebrew/bin/bench restart
+2025-09-03 18:06:33,300 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-03 18:07:50,042 INFO /opt/homebrew/bin/bench build
+2025-09-03 18:08:04,921 INFO /opt/homebrew/bin/bench --site mysite.local backup
+2025-09-03 18:08:15,533 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 18:08:45,935 INFO /opt/homebrew/bin/bench start
+2025-09-03 18:08:46,132 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-03 18:08:46,132 INFO /opt/homebrew/bin/bench watch
+2025-09-03 18:08:46,133 INFO /opt/homebrew/bin/bench schedule
+2025-09-03 18:08:46,143 INFO /opt/homebrew/bin/bench worker
+2025-09-03 18:08:50,530 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 18:09:19,472 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-03 18:14:21,100 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 18:14:28,857 INFO /opt/homebrew/bin/bench restart
+2025-09-03 18:14:36,713 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 18:16:29,789 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-03 18:16:35,706 INFO /opt/homebrew/bin/bench restart
+2025-09-03 18:16:40,955 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-03 18:17:32,571 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 08:27:00,917 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 08:48:13,364 INFO /opt/homebrew/bin/bench start
+2025-09-05 09:33:06,053 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 09:37:44,797 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-05 09:38:10,013 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-05 09:38:19,686 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-05 09:38:25,909 INFO /opt/homebrew/bin/bench build
+2025-09-05 09:38:43,797 INFO /opt/homebrew/bin/bench restart
+2025-09-05 09:38:49,554 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 09:39:01,166 INFO /opt/homebrew/bin/bench start
+2025-09-05 09:39:01,355 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-05 09:39:01,360 INFO /opt/homebrew/bin/bench worker
+2025-09-05 09:39:01,364 INFO /opt/homebrew/bin/bench schedule
+2025-09-05 09:39:01,376 INFO /opt/homebrew/bin/bench watch
+2025-09-05 09:39:11,086 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 09:41:56,139 INFO /opt/homebrew/bin/bench --site mysite.local set-config -g mute_emails true
+2025-09-05 09:42:08,497 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-05 09:44:18,205 INFO /opt/homebrew/bin/bench --site mysite.local remove-from-installed-apps swiss_accounting_integration
+2025-09-05 09:44:33,059 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-05 09:44:38,928 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 09:47:47,248 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-05 09:52:32,717 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-05 09:52:38,423 INFO /opt/homebrew/bin/bench --site mysite.local clear-cache
+2025-09-05 09:52:45,782 INFO /opt/homebrew/bin/bench restart
+2025-09-05 09:52:51,648 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-05 09:54:11,599 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-05 10:04:11,536 INFO /opt/homebrew/bin/bench --site mysite.local console
+2025-09-05 10:06:28,349 INFO /opt/homebrew/bin/bench --site mysite.local set-maintenance-mode on
+2025-09-05 10:06:32,031 INFO /opt/homebrew/bin/bench stop
+2025-09-05 10:06:42,651 INFO /opt/homebrew/bin/bench --site mysite.local backup --with-files
+2025-09-05 10:40:24,727 INFO /opt/homebrew/bin/bench new-site excise.local --db-name excise_db --db-password excice_pass --mariadb-root-password new_password
+2025-09-05 10:42:28,394 INFO /opt/homebrew/bin/bench --site stage.local --force restore sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-database.sql.gz --with-public-files sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-files.tar --with-private-files sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-private-files.tar
+2025-09-05 10:42:45,963 INFO /opt/homebrew/bin/bench --site excise.local --force restore sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-database.sql.gz --with-public-files sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-files.tar --with-private-files sites/stage.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-private-files.tar
+2025-09-05 10:44:17,777 INFO /opt/homebrew/bin/bench --site excise.local --force restore sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-database.sql.gz --with-public-files sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-files.tar --with-private-files sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-private-files.tar
+2025-09-05 10:48:14,368 INFO /opt/homebrew/bin/bench --site excise.local --force restore sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-database.sql.gz --with-public-files sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-files.tar --with-private-files sites/excise.local/private/backups/20250905_051518-erpnext-qle-ejy_frappe_cloud-private-files.tar
+2025-09-05 10:54:11,623 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-05 10:54:25,339 INFO /opt/homebrew/bin/bench --site excise.local clear-cache
+2025-09-05 10:54:38,015 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-05 10:56:47,208 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 10:58:09,286 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 10:58:12,615 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 10:59:08,178 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 11:01:29,565 INFO /opt/homebrew/bin/bench get-app --branch develop https://github.com/phamos-eu/Swiss-Accounting-Integration
+2025-09-05 11:01:29,580 LOG Getting Swiss-Accounting-Integration
+2025-09-05 11:01:29,580 DEBUG cd ./apps && git clone https://github.com/phamos-eu/Swiss-Accounting-Integration --branch develop --depth 1 --origin upstream
+2025-09-05 11:01:30,383 WARNING /opt/homebrew/bin/bench get-app --branch develop https://github.com/phamos-eu/Swiss-Accounting-Integration executed with exit code 1
+2025-09-05 11:02:45,822 INFO /opt/homebrew/bin/bench get-app --branch develop https://github.com/phamos-eu/Swiss-Accounting-Integration
+2025-09-05 11:02:45,837 LOG Getting Swiss-Accounting-Integration
+2025-09-05 11:02:45,837 DEBUG cd ./apps && git clone https://github.com/phamos-eu/Swiss-Accounting-Integration --branch develop --depth 1 --origin upstream
+2025-09-05 11:02:46,669 LOG Installing swiss_accounting_integration
+2025-09-05 11:02:46,669 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-05 11:02:48,339 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-05 11:02:48,339 WARNING /opt/homebrew/bin/bench get-app --branch develop https://github.com/phamos-eu/Swiss-Accounting-Integration executed with exit code 1
+2025-09-05 11:04:29,819 INFO /opt/homebrew/bin/bench pip install -e apps/swiss_accounting_integration --no-build-isolation --no-deps
+2025-09-05 11:04:50,141 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 11:05:49,338 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 11:07:47,121 INFO /opt/homebrew/bin/bench get-app --branch develop --resolve-deps https://github.com/phamos-eu/Swiss-Accounting-Integration
+2025-09-05 11:07:47,668 LOG Getting Swiss-Accounting-Integration
+2025-09-05 11:07:47,668 DEBUG cd ./apps && git clone https://github.com/phamos-eu/Swiss-Accounting-Integration --branch develop --depth 1 --origin upstream
+2025-09-05 11:07:48,491 LOG Installing swiss_accounting_integration
+2025-09-05 11:07:48,491 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-05 11:07:49,955 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-05 11:07:49,955 WARNING /opt/homebrew/bin/bench get-app --branch develop --resolve-deps https://github.com/phamos-eu/Swiss-Accounting-Integration executed with exit code 1
+2025-09-05 11:08:03,998 INFO /opt/homebrew/bin/bench pip install -e apps/swiss_accounting_integration --no-build-isolation --no-deps
+2025-09-05 11:08:13,402 INFO /opt/homebrew/bin/bench pip install -e apps/swiss_accounting_integration --no-build-isolation --no-deps
+2025-09-05 11:20:43,478 INFO /opt/homebrew/bin/bench pip show frappe
+2025-09-05 11:20:55,139 INFO /opt/homebrew/bin/bench pip show erpnext
+2025-09-05 11:21:06,753 INFO /opt/homebrew/bin/bench pip install -e apps/swiss_accounting_integration --no-build-isolation --no-deps
+2025-09-05 11:21:16,654 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 11:21:32,996 INFO /opt/homebrew/bin/bench python -c import frappe; print(frappe.__version__)
+2025-09-05 11:21:41,201 INFO /opt/homebrew/bin/bench python -c import frappe; print(frappe.__version__)
+2025-09-05 11:22:48,939 INFO /opt/homebrew/bin/bench pip install -e apps/swiss_accounting_integration --no-build-isolation --no-deps --config-settings editable_mode=compat
+2025-09-05 11:23:11,692 INFO /opt/homebrew/bin/bench --site excise.local install-app swiss_accounting_integration
+2025-09-05 11:23:21,427 INFO /opt/homebrew/bin/bench restart
+2025-09-05 11:23:42,024 INFO /opt/homebrew/bin/bench build
+2025-09-05 11:23:54,830 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-05 11:25:21,860 INFO /opt/homebrew/bin/bench restart
+2025-09-05 11:25:33,375 INFO /opt/homebrew/bin/bench --site excise.local list-apps
+2025-09-05 11:27:24,159 INFO /opt/homebrew/bin/bench --site excise.local install-app truth_source
+2025-09-06 06:03:04,196 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:03:04,398 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:03:04,403 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:03:04,413 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:03:04,413 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:08:28,146 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-06 06:08:43,292 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:08:43,483 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:08:43,484 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:08:43,487 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:08:43,497 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:08:52,530 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-06 06:09:55,552 INFO /opt/homebrew/bin/bench --site mysite.local remove-app truth_source
+2025-09-06 06:09:55,554 WARNING /opt/homebrew/bin/bench --site mysite.local remove-app truth_source executed with exit code 2
+2025-09-06 06:10:12,284 INFO /opt/homebrew/bin/bench --site mysite.local migrate
+2025-09-06 06:11:02,719 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:12:59,554 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:12:59,739 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:12:59,744 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:12:59,745 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:12:59,755 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:23:29,719 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:26:34,920 INFO /opt/homebrew/bin/bench stop
+2025-09-06 06:26:47,327 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:26:47,514 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:26:47,517 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:26:47,523 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:26:47,531 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:31:19,826 INFO /opt/homebrew/bin/bench --site mysite.local mariadb
+2025-09-06 06:38:43,969 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:38:44,163 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:38:44,165 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:38:44,174 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:38:44,175 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:41:38,434 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-06 06:41:52,044 INFO /opt/homebrew/bin/bench --site excise.local clear-cache
+2025-09-06 06:41:57,778 INFO /opt/homebrew/bin/bench build
+2025-09-06 06:42:31,292 INFO /opt/homebrew/bin/bench restart
+2025-09-06 06:42:41,304 INFO /opt/homebrew/bin/bench start
+2025-09-06 06:42:41,488 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 06:42:41,488 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 06:42:41,495 INFO /opt/homebrew/bin/bench worker
+2025-09-06 06:42:41,503 INFO /opt/homebrew/bin/bench watch
+2025-09-06 06:47:22,639 INFO /opt/homebrew/bin/bench --site excise.local execute frappe.core.doctype.user.user.create_user --args ['simo@sofiaelectricbrewing.com', 'New User', 'new_password']
+2025-09-06 06:47:39,755 INFO /opt/homebrew/bin/bench --site excise.local execute frappe.core.doctype.user.user.create_user --args ['simo@sofiaelectricbrewing.com', 'New User', 'new_password']
+2025-09-06 06:47:50,075 INFO /opt/homebrew/bin/bench --site excise.local execute frappe.core.doctype.user.user.create_user --args ['simo@sofiaelectricbrewing.com', 'New User', 'new_password']
+2025-09-06 06:48:12,822 INFO /opt/homebrew/bin/bench --site excise.local set-admin-password new_password
+2025-09-06 06:50:06,626 INFO /opt/homebrew/bin/bench --site excise.local backup --with-files
