@@ -551,3 +551,25 @@
 2025-09-06 06:47:50,075 INFO /opt/homebrew/bin/bench --site excise.local execute frappe.core.doctype.user.user.create_user --args ['simo@sofiaelectricbrewing.com', 'New User', 'new_password']
 2025-09-06 06:48:12,822 INFO /opt/homebrew/bin/bench --site excise.local set-admin-password new_password
 2025-09-06 06:50:06,626 INFO /opt/homebrew/bin/bench --site excise.local backup --with-files
+2025-09-06 07:11:05,652 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-06 07:11:12,837 INFO /opt/homebrew/bin/bench restart
+2025-09-06 07:11:18,223 INFO /opt/homebrew/bin/bench start
+2025-09-06 07:11:18,411 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-06 07:11:18,415 INFO /opt/homebrew/bin/bench worker
+2025-09-06 07:11:18,418 INFO /opt/homebrew/bin/bench watch
+2025-09-06 07:11:18,420 INFO /opt/homebrew/bin/bench schedule
+2025-09-06 07:15:59,736 INFO /opt/homebrew/bin/bench --site excise.local export-fixtures
+2025-09-06 07:18:23,390 INFO /opt/homebrew/bin/bench --site mysite.local list-apps
+2025-09-06 07:18:30,727 INFO /opt/homebrew/bin/bench --site excise.local list-apps
+2025-09-06 07:19:47,401 INFO /opt/homebrew/bin/bench --site excise.local install-app eb_invoice_templates
+2025-09-06 07:30:05,567 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:34:42,974 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:35:18,115 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:35:38,105 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:35:59,939 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:36:24,772 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:38:40,984 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:39:36,729 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:48:02,593 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-06 07:48:14,097 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-06 07:48:14,566 INFO /opt/homebrew/bin/bench clear-website-cache
