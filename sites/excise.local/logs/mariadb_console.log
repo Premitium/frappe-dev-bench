@@ -1,0 +1,9 @@
+_HiStOrY_V2_
+SELECT
+\040\040name,\040parent,\040idx,\040item_code,\040item_name,
+\040\040qty,\040rate,\040amount,
+\040\040custom_plato,\040custom_abv,\040custom_container_type,\040custom_container_volume
+FROM\040`tabSales\040Invoice\040Item`
+ORDER\040BY\040creation\040DESC
+LIMIT\04020;
+SELECT\040\040\040name,\040parent,\040idx,\040item_code,\040item_name,\040\040\040qty,\040rate,\040amount,\040\040\040custom_plato,\040custom_abv,\040custom_container_type,\040custom_container_volume\040FROM\040`tabSales\040Invoice\040Item`\040ORDER\040BY\040creation\040DESC\040LIMIT\04020;

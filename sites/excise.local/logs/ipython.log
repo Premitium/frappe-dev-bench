@@ -1,0 +1,8 @@
+2025-09-06 08:44:50,638 INFO ipython === bench console session ===
+2025-09-06 08:44:50,639 INFO ipython print("Installed apps:", frappe.get_installed_apps())
+2025-09-06 08:44:50,639 INFO ipython === session end ===
+2025-09-06 08:57:48,846 INFO ipython === bench console session ===
+2025-09-06 08:57:48,847 INFO ipython import frappe, json
+2025-09-06 08:57:48,847 INFO ipython print("Columns:", frappe.db.get_table_columns("tabSales Invoice Item"))
+2025-09-06 08:57:48,847 INFO ipython frappe.db.get_table_columns("Sales Invoice Item")
+2025-09-06 08:57:48,847 INFO ipython === session end ===
