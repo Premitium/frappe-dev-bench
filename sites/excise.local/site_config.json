@@ -1,5 +1,6 @@
 {
  "db_name": "excise_db",
  "db_password": "excice_pass",
- "db_type": "mariadb"
+ "db_type": "mariadb",
+ "maintenance_mode": 0
 }

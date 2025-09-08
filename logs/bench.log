@@ -581,3 +581,400 @@
 2025-09-08 08:20:14,916 INFO /opt/homebrew/bin/bench version
 2025-09-08 08:20:21,618 INFO /opt/homebrew/bin/bench version
 2025-09-08 08:20:58,278 INFO /opt/homebrew/bin/bench --site excise.local console
+2025-09-08 08:24:07,090 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:24:10,226 LOG pulling frappe
+2025-09-08 08:24:10,226 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:24:11,212 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:24:11,380 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:24:11,399 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:24:11,531 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:24:11,803 LOG pulling eb_invoice_templates
+2025-09-08 08:24:11,803 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:24:12,734 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:24:12,750 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:24:12,765 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:24:12,830 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:24:12,859 LOG pulling email_delivery_service
+2025-09-08 08:24:12,859 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:24:13,844 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:24:13,859 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:24:13,872 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:24:13,915 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:24:13,942 LOG pulling swiss_accounting_integration
+2025-09-08 08:24:13,942 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git fetch --depth=1 --no-tags upstream develop
+2025-09-08 08:24:14,978 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reset --hard upstream/develop
+2025-09-08 08:24:14,995 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reflog expire --all
+2025-09-08 08:24:15,008 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git gc --prune=all
+2025-09-08 08:24:15,054 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && find . -name "*.pyc" -delete
+2025-09-08 08:24:15,084 LOG pulling truth_source
+2025-09-08 08:24:15,084 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:24:16,492 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:24:16,510 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:24:16,523 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:24:16,566 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:24:16,590 LOG pulling erpnext
+2025-09-08 08:24:16,590 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:24:17,935 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:24:18,125 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:24:18,136 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:24:18,239 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:24:18,373 LOG pulling eb_vies
+2025-09-08 08:24:18,373 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:24:19,363 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:24:19,378 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:24:19,391 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:24:19,444 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:24:19,460 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:24:20,453 LOG Installing frappe
+2025-09-08 08:24:20,453 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:24:22,923 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:24:24,368 LOG Installing eb_invoice_templates
+2025-09-08 08:24:24,369 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:24:25,488 LOG Installing email_delivery_service
+2025-09-08 08:24:25,488 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:24:27,265 LOG Installing swiss_accounting_integration
+2025-09-08 08:24:27,265 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-08 08:24:29,119 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-08 08:24:29,119 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:25:22,520 INFO /opt/homebrew/bin/bench version
+2025-09-08 08:25:32,668 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:25:32,854 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:25:32,854 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:25:32,863 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:25:32,879 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:26:44,491 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:26:44,676 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:26:44,679 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:26:44,679 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:26:44,685 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:29:05,876 INFO /opt/homebrew/bin/bench --site your-site-name migrate
+2025-09-08 08:29:15,720 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 08:29:33,680 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:29:33,872 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:29:33,875 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:29:33,876 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:29:33,886 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:30:47,235 INFO /opt/homebrew/bin/bench build
+2025-09-08 08:31:12,617 INFO /opt/homebrew/bin/bench restart
+2025-09-08 08:31:26,745 INFO /opt/homebrew/bin/bench --site excise.local clear-cache
+2025-09-08 08:31:41,970 INFO /opt/homebrew/bin/bench --site excise.local clear-website-cache
+2025-09-08 08:31:58,445 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:31:58,631 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:31:58,632 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:31:58,641 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:31:58,645 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:39:47,108 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:39:49,866 LOG pulling frappe
+2025-09-08 08:39:49,866 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:39:50,678 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:39:50,795 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:39:50,805 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:39:50,894 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:39:51,088 LOG pulling eb_invoice_templates
+2025-09-08 08:39:51,088 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:39:51,869 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:39:51,888 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:39:51,902 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:39:51,939 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:39:51,962 LOG pulling email_delivery_service
+2025-09-08 08:39:51,963 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:39:52,801 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:39:52,821 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:39:52,833 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:39:52,869 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:39:52,891 LOG pulling swiss_accounting_integration
+2025-09-08 08:39:52,892 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git fetch --depth=1 --no-tags upstream develop
+2025-09-08 08:39:53,717 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reset --hard upstream/develop
+2025-09-08 08:39:53,741 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reflog expire --all
+2025-09-08 08:39:53,755 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git gc --prune=all
+2025-09-08 08:39:53,795 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && find . -name "*.pyc" -delete
+2025-09-08 08:39:53,819 LOG pulling truth_source
+2025-09-08 08:39:53,820 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:39:54,994 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:39:55,013 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:39:55,026 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:39:55,063 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:39:55,086 LOG pulling erpnext
+2025-09-08 08:39:55,086 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:39:55,920 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:39:56,033 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:39:56,043 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:39:56,136 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:39:56,245 LOG pulling eb_vies
+2025-09-08 08:39:56,245 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:39:57,063 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:39:57,082 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:39:57,095 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:39:57,132 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:39:57,135 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:39:57,624 LOG Installing frappe
+2025-09-08 08:39:57,624 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:39:58,763 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:39:59,188 LOG Installing eb_invoice_templates
+2025-09-08 08:39:59,189 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:40:00,087 LOG Installing email_delivery_service
+2025-09-08 08:40:00,087 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:40:01,698 LOG Installing swiss_accounting_integration
+2025-09-08 08:40:01,698 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-08 08:40:03,315 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-08 08:40:03,315 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:46:24,634 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:46:27,122 LOG pulling frappe
+2025-09-08 08:46:27,122 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:46:27,912 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:46:27,936 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:46:27,949 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:46:28,040 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:46:28,149 LOG pulling eb_invoice_templates
+2025-09-08 08:46:28,149 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:46:28,935 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:46:28,954 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:46:28,967 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:46:29,004 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:46:29,026 LOG pulling email_delivery_service
+2025-09-08 08:46:29,026 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:46:29,819 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:46:29,837 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:46:29,850 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:46:29,889 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:46:29,913 LOG pulling swiss_accounting_integration
+2025-09-08 08:46:29,913 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git fetch --depth=1 --no-tags upstream develop
+2025-09-08 08:46:30,768 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reset --hard upstream/develop
+2025-09-08 08:46:30,788 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reflog expire --all
+2025-09-08 08:46:30,801 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git gc --prune=all
+2025-09-08 08:46:30,841 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && find . -name "*.pyc" -delete
+2025-09-08 08:46:30,864 LOG pulling truth_source
+2025-09-08 08:46:30,865 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:46:32,299 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:46:32,317 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:46:32,330 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:46:32,368 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:46:32,390 LOG pulling erpnext
+2025-09-08 08:46:32,390 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:46:33,208 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:46:33,236 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:46:33,248 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:46:33,350 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:46:33,414 LOG pulling eb_vies
+2025-09-08 08:46:33,414 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:46:34,222 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:46:34,243 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:46:34,257 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:46:34,293 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:46:34,296 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:46:34,742 LOG Installing frappe
+2025-09-08 08:46:34,743 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:46:35,785 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:46:36,241 LOG Installing eb_invoice_templates
+2025-09-08 08:46:36,241 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:46:37,140 LOG Installing email_delivery_service
+2025-09-08 08:46:37,140 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:46:38,760 LOG Installing swiss_accounting_integration
+2025-09-08 08:46:38,760 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-08 08:46:40,514 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-08 08:46:40,516 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:47:59,665 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:48:02,340 LOG pulling frappe
+2025-09-08 08:48:02,340 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:48:03,164 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:48:03,189 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:48:03,202 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:48:03,292 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:48:03,398 LOG pulling eb_invoice_templates
+2025-09-08 08:48:03,399 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:48:04,245 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:48:04,266 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:48:04,280 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:48:04,316 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:48:04,338 LOG pulling email_delivery_service
+2025-09-08 08:48:04,338 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:48:05,151 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:48:05,171 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:48:05,184 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:48:05,220 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:48:05,241 LOG pulling swiss_accounting_integration
+2025-09-08 08:48:05,242 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git fetch --depth=1 --no-tags upstream develop
+2025-09-08 08:48:06,047 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reset --hard upstream/develop
+2025-09-08 08:48:06,066 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reflog expire --all
+2025-09-08 08:48:06,079 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git gc --prune=all
+2025-09-08 08:48:06,118 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && find . -name "*.pyc" -delete
+2025-09-08 08:48:06,141 LOG pulling truth_source
+2025-09-08 08:48:06,141 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:48:07,353 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:48:07,372 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:48:07,385 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:48:07,422 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:48:07,444 LOG pulling erpnext
+2025-09-08 08:48:07,444 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:48:08,273 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:48:08,300 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:48:08,313 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:48:08,404 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:48:08,467 LOG pulling eb_vies
+2025-09-08 08:48:08,467 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:48:09,261 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:48:09,280 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:48:09,293 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:48:09,330 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:48:09,333 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:48:09,806 LOG Installing frappe
+2025-09-08 08:48:09,807 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:48:10,867 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:48:11,327 LOG Installing eb_invoice_templates
+2025-09-08 08:48:11,327 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:48:12,292 LOG Installing email_delivery_service
+2025-09-08 08:48:12,292 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:48:13,920 LOG Installing swiss_accounting_integration
+2025-09-08 08:48:13,920 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-08 08:48:15,649 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-08 08:48:15,649 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:49:02,029 INFO /opt/homebrew/bin/bench --site excise.local uninstall-app swiss_accounting_integration
+2025-09-08 08:49:25,342 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:49:25,526 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:49:25,535 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:49:25,535 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:49:25,538 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:49:29,951 INFO /opt/homebrew/bin/bench --site excise.local uninstall-app swiss_accounting_integration
+2025-09-08 08:50:23,176 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:50:26,161 LOG pulling frappe
+2025-09-08 08:50:26,161 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:50:26,999 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:50:27,024 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:50:27,036 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:50:27,129 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:50:27,275 LOG pulling eb_invoice_templates
+2025-09-08 08:50:27,275 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:50:28,121 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:50:28,140 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:50:28,153 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:50:28,189 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:50:28,211 LOG pulling email_delivery_service
+2025-09-08 08:50:28,211 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:50:29,014 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:50:29,036 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:50:29,051 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:50:29,086 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:50:29,109 LOG pulling swiss_accounting_integration
+2025-09-08 08:50:29,110 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git fetch --depth=1 --no-tags upstream develop
+2025-09-08 08:50:29,911 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reset --hard upstream/develop
+2025-09-08 08:50:29,930 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git reflog expire --all
+2025-09-08 08:50:29,943 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && git gc --prune=all
+2025-09-08 08:50:29,981 DEBUG cd /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration && find . -name "*.pyc" -delete
+2025-09-08 08:50:30,005 LOG pulling truth_source
+2025-09-08 08:50:30,006 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:50:31,600 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:50:31,618 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:50:31,631 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:50:31,668 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:50:31,691 LOG pulling erpnext
+2025-09-08 08:50:31,691 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:50:32,520 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:50:32,548 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:50:32,560 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:50:32,656 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:50:32,712 LOG pulling eb_vies
+2025-09-08 08:50:32,712 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:50:33,509 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:50:33,530 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:50:33,544 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:50:33,581 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:50:33,584 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:50:34,038 LOG Installing frappe
+2025-09-08 08:50:34,039 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:50:35,051 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:50:35,449 LOG Installing eb_invoice_templates
+2025-09-08 08:50:35,450 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:50:36,358 LOG Installing email_delivery_service
+2025-09-08 08:50:36,358 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:50:38,046 LOG Installing swiss_accounting_integration
+2025-09-08 08:50:38,047 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration 
+2025-09-08 08:50:39,863 WARNING cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/swiss_accounting_integration  executed with exit code 1
+2025-09-08 08:50:39,863 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:52:30,731 INFO /opt/homebrew/bin/bench --site excise.local uninstall-app swiss_accounting_integration
+2025-09-08 08:53:03,899 INFO /opt/homebrew/bin/bench setup requirements
+2025-09-08 08:53:03,903 DEBUG /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:53:04,350 LOG Installing frappe
+2025-09-08 08:53:04,350 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:53:05,360 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:53:05,786 LOG Installing eb_invoice_templates
+2025-09-08 08:53:05,786 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:53:06,680 LOG Installing email_delivery_service
+2025-09-08 08:53:06,680 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:53:08,318 LOG Installing truth_source
+2025-09-08 08:53:08,318 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/truth_source 
+2025-09-08 08:53:09,300 LOG Installing erpnext
+2025-09-08 08:53:09,300 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/erpnext 
+2025-09-08 08:53:10,332 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && yarn install --check-files
+2025-09-08 08:53:10,443 LOG Installing eb_vies
+2025-09-08 08:53:10,443 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_vies 
+2025-09-08 08:53:11,298 LOG Installing plato_excise
+2025-09-08 08:53:11,298 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/plato_excise 
+2025-09-08 08:53:25,064 INFO /opt/homebrew/bin/bench update --reset
+2025-09-08 08:53:27,664 LOG pulling frappe
+2025-09-08 08:53:27,664 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:53:28,465 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reset --hard upstream/version-15
+2025-09-08 08:53:28,491 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2025-09-08 08:53:28,504 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2025-09-08 08:53:28,595 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2025-09-08 08:53:28,707 LOG pulling eb_invoice_templates
+2025-09-08 08:53:28,707 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:53:29,514 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reset --hard origin/main
+2025-09-08 08:53:29,533 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git reflog expire --all
+2025-09-08 08:53:29,545 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && git gc --prune=all
+2025-09-08 08:53:29,582 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates && find . -name "*.pyc" -delete
+2025-09-08 08:53:29,604 LOG pulling email_delivery_service
+2025-09-08 08:53:29,604 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git fetch --depth=1 --no-tags upstream main
+2025-09-08 08:53:30,395 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reset --hard upstream/main
+2025-09-08 08:53:30,414 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git reflog expire --all
+2025-09-08 08:53:30,428 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && git gc --prune=all
+2025-09-08 08:53:30,464 DEBUG cd /Users/simo/Dev/frappe-bench/apps/email_delivery_service && find . -name "*.pyc" -delete
+2025-09-08 08:53:30,485 LOG pulling truth_source
+2025-09-08 08:53:30,486 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:53:31,757 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reset --hard origin/main
+2025-09-08 08:53:31,777 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git reflog expire --all
+2025-09-08 08:53:31,790 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && git gc --prune=all
+2025-09-08 08:53:31,826 DEBUG cd /Users/simo/Dev/frappe-bench/apps/truth_source && find . -name "*.pyc" -delete
+2025-09-08 08:53:31,849 LOG pulling erpnext
+2025-09-08 08:53:31,849 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-15
+2025-09-08 08:53:32,777 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reset --hard upstream/version-15
+2025-09-08 08:53:32,804 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git reflog expire --all
+2025-09-08 08:53:32,817 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && git gc --prune=all
+2025-09-08 08:53:32,910 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2025-09-08 08:53:32,973 LOG pulling eb_vies
+2025-09-08 08:53:32,973 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git fetch --depth=1 --no-tags origin main
+2025-09-08 08:53:33,769 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reset --hard origin/main
+2025-09-08 08:53:33,790 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git reflog expire --all
+2025-09-08 08:53:33,804 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && git gc --prune=all
+2025-09-08 08:53:33,840 DEBUG cd /Users/simo/Dev/frappe-bench/apps/eb_vies && find . -name "*.pyc" -delete
+2025-09-08 08:53:33,843 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-08 08:53:34,239 LOG Installing frappe
+2025-09-08 08:53:34,239 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/frappe 
+2025-09-08 08:53:35,236 DEBUG cd /Users/simo/Dev/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-08 08:53:35,624 LOG Installing eb_invoice_templates
+2025-09-08 08:53:35,625 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_invoice_templates 
+2025-09-08 08:53:36,542 LOG Installing email_delivery_service
+2025-09-08 08:53:36,542 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/email_delivery_service 
+2025-09-08 08:53:38,145 LOG Installing truth_source
+2025-09-08 08:53:38,145 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/truth_source 
+2025-09-08 08:53:39,135 LOG Installing erpnext
+2025-09-08 08:53:39,135 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/erpnext 
+2025-09-08 08:53:40,161 DEBUG cd /Users/simo/Dev/frappe-bench/apps/erpnext && yarn install --check-files
+2025-09-08 08:53:40,252 LOG Installing eb_vies
+2025-09-08 08:53:40,252 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/eb_vies 
+2025-09-08 08:53:41,175 LOG Installing plato_excise
+2025-09-08 08:53:41,176 DEBUG cd /Users/simo/Dev/frappe-bench && /Users/simo/Dev/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/simo/Dev/frappe-bench/apps/plato_excise 
+2025-09-08 08:53:42,545 WARNING /opt/homebrew/bin/bench update --reset executed with exit code 1
+2025-09-08 08:54:02,247 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 08:54:11,158 INFO /opt/homebrew/bin/bench start
+2025-09-08 08:54:11,349 INFO /opt/homebrew/bin/bench worker
+2025-09-08 08:54:11,349 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 08:54:11,357 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 08:54:11,358 INFO /opt/homebrew/bin/bench watch
+2025-09-08 08:54:15,047 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 08:54:29,546 INFO /opt/homebrew/bin/bench build
+2025-09-08 08:57:19,865 INFO /opt/homebrew/bin/bench --site excise.local set-maintenance-mode off
+2025-09-08 08:57:40,500 INFO /opt/homebrew/bin/bench --site excise.local set-config maintenance_mode 0
+2025-09-08 08:57:56,819 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 08:58:18,612 INFO /opt/homebrew/bin/bench --site excise.local clear-cache
+2025-09-08 08:58:30,286 INFO /opt/homebrew/bin/bench --site excise.local clear-website-cache
+2025-09-08 08:58:39,687 INFO /opt/homebrew/bin/bench restart

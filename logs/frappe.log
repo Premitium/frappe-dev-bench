@@ -67,3 +67,66 @@ Form Dict: {'app_path': 'print/Sales Invoice/ACC-SINV-2025-00007'}
 2025-09-05 09:33:50,846 ERROR frappe New Exception collected in error log
 Site: mysite.local
 Form Dict: {'app_path': 'customize-form/Customize Form'}
+2025-09-08 08:25:47,993 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:25:47,994 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:25:52,278 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:25:52,393 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:25:52,810 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:26:15,757 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:26:15,858 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:26:18,168 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:26:18,266 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:04,491 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:05,240 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:25,061 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:25,164 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:29,515 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:27:29,606 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:29:54,357 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:29:55,164 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:32:13,672 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:32:14,531 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:54:57,106 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
+2025-09-08 08:54:57,843 ERROR frappe New Exception collected in error log
+Site: excise.local
+Form Dict: {}
