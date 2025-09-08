@@ -978,3 +978,23 @@
 2025-09-08 08:58:18,612 INFO /opt/homebrew/bin/bench --site excise.local clear-cache
 2025-09-08 08:58:30,286 INFO /opt/homebrew/bin/bench --site excise.local clear-website-cache
 2025-09-08 08:58:39,687 INFO /opt/homebrew/bin/bench restart
+2025-09-08 08:59:31,203 INFO /opt/homebrew/bin/bench version
+2025-09-08 09:00:28,390 INFO /opt/homebrew/bin/bench start
+2025-09-08 09:00:28,570 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 09:00:28,578 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 09:00:28,591 INFO /opt/homebrew/bin/bench watch
+2025-09-08 09:00:28,592 INFO /opt/homebrew/bin/bench worker
+2025-09-08 10:17:43,284 INFO /opt/homebrew/bin/bench --site excise.local set-config server_script_enabled true
+2025-09-08 10:17:47,692 INFO /opt/homebrew/bin/bench start
+2025-09-08 10:17:47,882 INFO /opt/homebrew/bin/bench watch
+2025-09-08 10:17:47,882 INFO /opt/homebrew/bin/bench serve --port 8000
+2025-09-08 10:17:47,883 INFO /opt/homebrew/bin/bench schedule
+2025-09-08 10:17:47,894 INFO /opt/homebrew/bin/bench worker
+2025-09-08 10:19:47,732 INFO /opt/homebrew/bin/bench set-config -g server_script_enabled true
+2025-09-08 10:19:57,962 INFO /opt/homebrew/bin/bench restart
+2025-09-08 10:20:03,462 INFO /opt/homebrew/bin/bench --site excise.local console
+2025-09-08 11:08:46,085 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 11:14:42,598 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 11:15:38,949 INFO /opt/homebrew/bin/bench --site excise.local execute truth_source.batch_backfill.run
+2025-09-08 11:37:08,010 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 12:00:00,571 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
