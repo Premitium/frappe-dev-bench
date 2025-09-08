@@ -6,3 +6,7 @@
 2025-09-06 08:57:48,847 INFO ipython print("Columns:", frappe.db.get_table_columns("tabSales Invoice Item"))
 2025-09-06 08:57:48,847 INFO ipython frappe.db.get_table_columns("Sales Invoice Item")
 2025-09-06 08:57:48,847 INFO ipython === session end ===
+2025-09-08 08:22:34,228 INFO ipython === bench console session ===
+2025-09-08 08:22:34,229 INFO ipython import erpnext, frappe
+2025-09-08 08:22:34,229 INFO ipython print("ERPNext:", erpnext.__version__)
+2025-09-08 08:22:34,230 INFO ipython === session end ===
