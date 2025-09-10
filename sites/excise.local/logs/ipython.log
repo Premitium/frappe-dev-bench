@@ -13,3 +13,39 @@
 2025-09-08 10:32:35,943 INFO ipython === bench console session ===
 2025-09-08 10:32:35,944 INFO ipython print(frappe.conf.get("server_script_enabled"))
 2025-09-08 10:32:35,944 INFO ipython === session end ===
+2025-09-10 07:07:52,870 INFO ipython === bench console session ===
+2025-09-10 07:07:52,870 INFO ipython import frappe
+b = frappe.new_doc("Batch")
+b.item = "<YOUR-ITEM-CODE>"  # ensure Item.custom_excise_rate=0.0075 and Item.custom_volume=0.5
+b.custom_plato = 13
+b.insert()  # triggers compute_batch_excise
+
+print("per_l      =", b.custom_excise_per_l)      # 0.0975
+print("per_unit   =", b.custom_excise_per_unit)   # 0.04875  ✅
+print("per_hl     =", b.custom_excise_per_hl)     # 9.75
+print("rate_snap  =", b.custom_excise_rate_snapshot)
+2025-09-10 07:07:52,870 INFO ipython import frappe
+
+ITEM = "YOUR-REAL-ITEM-CODE"  # <-- replace
+
+# sanity check: does the item exist?
+assert frappe.db.exists("Item", ITEM), "Item not found"
+
+# check batching flags on the item
+print(frappe.get_value("Item", ITEM, ["maintain_stock", "has_batch_no", "create_new_batch", "batch_number_series"]))
+
+b = frappe.new_doc("Batch")
+b.item = ITEM
+b.custom_plato = 13
+
+# Option A: let ERPNext auto-name the batch
+#   Requires Item.create_new_batch = 1 (and optional Item.batch_number_series)
+#   If create_new_batch is 0, ERPNext will throw "Batch ID is mandatory"
+b.insert()
+frappe.db.commit()
+
+print("per_l      =", b.custom_excise_per_l)
+print("per_unit   =", b.custom_excise_per_unit)
+print("per_hl     =", b.custom_excise_per_hl)
+print("rate_snap  =", b.custom_excise_rate_snapshot)
+2025-09-10 07:07:52,870 INFO ipython === session end ===

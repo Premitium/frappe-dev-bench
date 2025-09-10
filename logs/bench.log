@@ -998,3 +998,7 @@
 2025-09-08 11:15:38,949 INFO /opt/homebrew/bin/bench --site excise.local execute truth_source.batch_backfill.run
 2025-09-08 11:37:08,010 INFO /opt/homebrew/bin/bench --site excise.local migrate
 2025-09-08 12:00:00,571 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-08 12:30:02,464 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 12:31:17,879 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-08 12:32:57,681 INFO /opt/homebrew/bin/bench --site excise.local console
+2025-09-08 18:05:00,921 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
