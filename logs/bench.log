@@ -1002,3 +1002,30 @@
 2025-09-08 12:31:17,879 INFO /opt/homebrew/bin/bench --site excise.local migrate
 2025-09-08 12:32:57,681 INFO /opt/homebrew/bin/bench --site excise.local console
 2025-09-08 18:05:00,921 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-14 12:08:50,508 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-15 12:00:01,180 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-17 14:21:26,484 INFO /opt/homebrew/bin/bench --site excise.local
+2025-09-17 14:21:41,153 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-17 14:42:24,043 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-17 15:09:39,356 INFO /opt/homebrew/bin/bench --site your.site console
+2025-09-17 15:09:49,831 INFO /opt/homebrew/bin/bench --site excise.local console
+2025-09-17 15:11:58,692 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-17 15:54:45,169 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-18 06:00:01,234 INFO /Users/simo/erpnext/nexterp-bench/env/bin/bench --verbose --site all backup
+2025-09-18 06:19:01,830 INFO /opt/homebrew/bin/bench build
+2025-09-18 06:27:21,982 INFO /opt/homebrew/bin/bench console
+2025-09-18 06:28:59,307 INFO /opt/homebrew/bin/bench --site your-site migrate
+2025-09-18 06:29:08,066 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-18 06:29:15,754 INFO /opt/homebrew/bin/bench console
+2025-09-18 07:15:32,503 INFO /opt/homebrew/bin/bench --site excise.local execute truth_source.setup.apply.run_all
+2025-09-18 07:15:48,002 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-18 07:15:58,841 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-18 07:16:07,908 INFO /opt/homebrew/bin/bench clear-website-cache
+2025-09-18 07:16:14,749 INFO /opt/homebrew/bin/bench restart
+2025-09-18 07:24:27,603 INFO /opt/homebrew/bin/bench console
+2025-09-18 08:25:24,930 INFO /opt/homebrew/bin/bench --site excise.local execute truth_source.setup.apply.run_all
+2025-09-18 08:25:42,140 INFO /opt/homebrew/bin/bench --site excise.local migrate
+2025-09-18 08:25:52,912 INFO /opt/homebrew/bin/bench clear-cache
+2025-09-18 08:25:53,332 INFO /opt/homebrew/bin/bench clear-website-cache
+2025-09-18 08:25:58,862 INFO /opt/homebrew/bin/bench restart
+2025-09-18 08:45:35,607 INFO /opt/homebrew/bin/bench console

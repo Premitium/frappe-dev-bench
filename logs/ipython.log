@@ -136,3 +136,52 @@ print("per_unit   =", b.custom_excise_per_unit)
 print("per_hl     =", b.custom_excise_per_hl)
 print("rate_snap  =", b.custom_excise_rate_snapshot)
 2025-09-10 07:07:52,870 INFO ipython === session end ===
+2025-09-17 15:11:18,960 INFO ipython === bench console session ===
+2025-09-17 15:11:18,962 INFO ipython import frappe
+OLD_FN = "custom_net_weight"
+DT = "Item"
+
+cfname = f"{DT}-{OLD_FN}"
+if frappe.db.exists("Custom Field", cfname):
+    frappe.delete_doc("Custom Field", cfname, ignore_permissions=True, force=1)
+    frappe.db.commit()
+2025-09-17 15:11:18,962 INFO ipython === session end ===
+2025-09-18 06:28:58,237 INFO ipython === bench console session ===
+2025-09-18 06:28:58,238 INFO ipython import frappe, importlib
+2025-09-18 06:28:58,239 INFO ipython import truth_source.batch, truth_source.utils.calc
+2025-09-18 06:28:58,239 INFO ipython frappe.get_hooks("doc_events")["Sales Invoice"] 
+2025-09-18 06:28:58,239 INFO ipython === session end ===
+2025-09-18 07:15:08,581 INFO ipython === bench console session ===
+2025-09-18 07:15:08,583 INFO ipython frappe.get_hooks("doc_events")["Sales Invoice"]
+2025-09-18 07:15:08,583 INFO ipython import frappe, truth_source.utils.calc as calc
+2025-09-18 07:15:08,583 INFO ipython doc = frappe.get_doc("Sales Invoice", "ACC-SINV-2025-00009")
+2025-09-18 07:15:08,583 INFO ipython calc.compute_weights(doc)
+2025-09-18 07:15:08,583 INFO ipython doc.save()
+2025-09-18 07:15:08,583 INFO ipython frappe.db.commit()
+2025-09-18 07:15:08,583 INFO ipython frappe.get_hooks("doc_events")["Sales Invoice"]
+2025-09-18 07:15:08,583 INFO ipython import frappe
+m = frappe.get_meta("Sales Invoice Item")
+bool(m.get_field("custom_weight_kg_at_20c"))
+2025-09-18 07:15:08,583 INFO ipython === session end ===
+2025-09-18 08:25:08,511 INFO ipython === bench console session ===
+2025-09-18 08:25:08,514 INFO ipython import frappe
+m = frappe.get_meta("Sales Invoice Item")
+m.get_field("batch_no") 
+2025-09-18 08:25:08,514 INFO ipython === session end ===
+2025-09-18 08:50:13,905 INFO ipython === bench console session ===
+2025-09-18 08:50:13,907 INFO ipython import frappe
+b = frappe.get_doc("Batch", "L0301")
+i = frappe.get_doc("Item", b.item)
+i.custom_net_volume, b.custom_plato
+2025-09-18 08:50:13,907 INFO ipython frappe.get_hooks("doc_events").get("Batch")
+2025-09-18 08:50:13,907 INFO ipython import frappe
+from truth_source.utils.calc import sg20
+
+for b in frappe.get_all("Batch", fields=["name","item","custom_plato"]):
+    liters = frappe.db.get_value("Item", b.item, "custom_net_volume") or 0
+    p = float(b.custom_plato or 0)
+    if liters and p:
+        val = round(float(liters) * sg20(p), 3)
+        frappe.db.set_value("Batch", b.name, "custom_weight_kg_at_20c", val)
+frappe.db.commit()
+2025-09-18 08:50:13,907 INFO ipython === session end ===
